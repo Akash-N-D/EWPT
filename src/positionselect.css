@@ -1,0 +1,71 @@
+body {
+  all: unset;
+  height: 100vh;
+  width: 100%;
+}
+
+#top a{
+  color: white;
+  font-size: xx-large;
+  font-style: italic;
+}
+
+#top a:hover{
+  color: rgb(37, 85, 37);
+}
+
+video{
+  filter: brightness(0.2);
+}
+
+.video-bg{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index:-1;
+}
+
+
+.head{
+  text-align: center;
+}
+
+#top{
+  justify-content: center;
+}
+
+#but{
+  padding-top: 15%;
+}
+
+#but h1{
+  color: white;
+}
+
+#mgn{
+  background-color: black;
+  color: white;
+  border-color: white;
+}
+
+#mgn:hover{
+  background-color: black;
+  color: rgb(37, 85, 37);
+  border: none;
+}
+
+#emp{
+  margin-left: 1%;
+  background-color: black;
+  color: white;
+  border-color: white;
+}
+
+#emp:hover{
+  background-color: black;
+  color: rgb(37, 85, 37);
+  border: none;
+}
