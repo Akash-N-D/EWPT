@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './Managerdashboard.css';
+import './managerdashboard.css';
 
 const teamMembers = [
     {
