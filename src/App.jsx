@@ -3,6 +3,7 @@ import Manager from './manager';
 import Employer from './employer';
 import Positionselect from './positionselect';
 import Managerprofile from './managerprofile'
+import ManagerDashboard from './managerdashboard.jsx';
 import Employerprofile from './employerprofile'
 import Employerdashboard from './employerdashboard.jsx'
 
@@ -18,7 +19,7 @@ function App() {
       {position === null && <Positionselect onPosition={setPosition} />}
       {position === 'managerprofile' && <Managerprofile  onPosition={setPosition}/>}
       {position === 'employerprofile' && <Employerprofile  onPosition={setPosition}/>}
-      {position === 'managerdashboard' && <Managerdashboard  onPosition={setPosition}/>}
+      {position === 'managerdashboard' && <ManagerDashboard  onPosition={setPosition}/>}
       {position === 'employerdashboard' && <Employerdashboard  onPosition={setPosition}/>}
     </div>
     </>
