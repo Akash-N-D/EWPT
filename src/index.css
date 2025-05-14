@@ -1,0 +1,54 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 224 71.4% 4.1%;
+    --card: 0 0% 100%;
+    --card-foreground: 224 71.4% 4.1%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 224 71.4% 4.1%;
+    --primary: 25 65.7% 22%; /* Darker Brown */
+    --primary-foreground: 210 20% 98%;
+    --primary-light: 19 56% 32%; /* Slightly Lighter Brown */
+    --secondary: 40 30% 88%; /* Light Tan */
+    --secondary-foreground: 25 65.7% 22%;
+    --muted: 220 14.3% 95.9%;
+    --muted-foreground: 220 8.9% 46.1%;
+    --accent: 34 50% 80%; /* Light Brown Accent */
+    --accent-foreground: 25 65.7% 22%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 20% 98%;
+    --border: 240 5.9% 70%; /* Darker border color */
+    --input: 240 5.9% 70%;
+    --ring: 25 65.7% 22%;
+    --radius: 0.5rem;
+  }
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: white;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Add thicker borders throughout the application */
+.border {
+  border-width: 2px;
+}
+
+.border-2 {
+  border-width: 2px !important;
+}
