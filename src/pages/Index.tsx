@@ -17,16 +17,16 @@ const Index = () => {
       <div className="flex-grow flex items-center">
         <div className="container px-4 py-5 mx-auto">
           <div className="mx-auto text-center max-w-3xl">
-            <h1 className="text-4xl font-bold mb-4 text-primary">Employer Work Performance Tracker</h1>
+            <h1 className="text-4xl font-bold mb-4 text-primary">Employee Work Performance Tracker</h1>
             <p className="text-lg text-gray-600 mb-5">
-              Track employee progress, manage projects, and improve team performance with our comprehensive dashboard solution.
+              Track employee progress, manage takss, and improve team performance with our comprehensive dashboard solution.
             </p>
             
             <div className="my-5">
               <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                 <div className="bg-white p-4 rounded shadow-sm">
-                  <h3 className="font-semibold text-lg mb-2 text-primary">Project Management</h3>
-                  <p className="text-gray-600">Assign projects to team members and track their progress</p>
+                  <h3 className="font-semibold text-lg mb-2 text-primary">Task Management</h3>
+                  <p className="text-gray-600">Assign tasks to team members and track their progress</p>
                 </div>
                 
                 <div className="bg-white p-4 rounded shadow-sm">
@@ -53,7 +53,7 @@ const Index = () => {
       {/* Footer */}
       <footer className="bg-gray-50 py-4">
         <div className="container mx-auto text-center text-gray-600">
-          <p>&copy; {new Date().getFullYear()} TechM | Employer Work Performance Tracker</p>
+          <p>&copy; {new Date().getFullYear()} TechM | Employee Work Performance Tracker</p>
         </div>
       </footer>
     </div>
